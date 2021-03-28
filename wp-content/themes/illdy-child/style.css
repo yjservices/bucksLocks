@@ -1,0 +1,1199 @@
+/*
+ Theme Name:   illdy Child
+ Theme URI:    http://example.com/illdy-child/
+ Description:  Skt Bakery Child Theme
+ Author:       Jonathan Yaacov
+ Template:     illdy
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  illdy-child
+*/
+
+.pace {
+    display: none;
+}
+
+#header-logo-contianer {
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: #3487C2;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    z-index: 9999;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #f1d204;
+    height: 85px;
+}
+
+    #logo-container {
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        font-weight: 700;
+        margin-bottom: 0px;
+        width: 100%;    
+        padding: 0 95px 0 95px;
+    }
+
+        #logo-container div.header-left a span {
+            color: #3487c2;
+            font-size: 63px;
+        }
+        #logo-container .header-right {
+            float: right;
+            margin-right: 30px;
+            background-color: #3487C2;
+            height: 79px;
+            width: 300px;
+        }
+
+        #header-title-text .cta-hedear-title {          
+            margin-right: 30px;
+            background-color: #f1d204;
+            height: 71px;
+            width: 300px;
+            padding-top: 23px;
+            margin-bottom: 40px;
+            padding-left: 45px;
+        }
+        
+
+        #header-title-text {
+            float: left;
+            background-color: rgba(0,0,0,0.63);
+            padding-top: 10px !important;
+            padding-left: 60px !important;
+            padding-right: 58px;
+            position: relative;
+            left: 37px;
+            top: 10px;
+            color: white;
+            z-index: 1;
+			max-width: 38em;
+        }
+        
+        #header-title-text > p {
+            margin-bottom: 41px;
+        }
+        
+        #header-title-text > div > div > p > a {
+            font-size: 25px;
+            color: black;
+        }
+
+        #logo-container .header-right .header-contact {
+            padding-top: 5px;
+            text-align: center;
+            color: #FFF;
+            text-transform: uppercase;
+        }
+
+            #logo-container .header-contact p {
+                margin: 0px;
+                font-size: 16px;
+                font-weight: initial;
+            }
+
+            .header-contact a {
+                font-family: 'Source Sans Pro', 'sans-serif';
+                color: #FFF;
+                text-decoration: none;
+                display: block;
+                font-size: 32px;
+                font-weight: 700;
+            }
+            
+            #logo-lock-img {
+                height: 80px;
+                width: auto;
+            }
+            
+            #cks-part {
+                position: relative;
+                left: 31px;
+            }
+            
+            #contact-number-bottom-header {
+                float: left;
+                display: none;
+            }
+            
+            .front-page-section .section-header h3 {
+                margin-bottom: 30px;
+            }
+            
+            #services .section-header h3 {
+                margin-bottom: 40px;
+                top: 22px;
+                position: relative;                
+            }
+            
+            #about .section-header h3 {
+                color: black;
+            }
+            
+            .front-page-section .section-header .section-description {
+                color: #38393d;
+				max-width: 50em;
+                margin: auto;
+            }
+            
+            .section-header h3.section-header-title {
+                color: #3487c2;
+            }
+            
+            .section-header h3.section-header-title span {
+                color: black;
+            }
+            
+            #services > div.section-header > div > div > div  > div {
+                background-color: transparent;
+            }
+            #services > div.section-header > div > div > div  > div > a {
+                display: none;
+            }
+            
+            .location-scroll {
+                display: inline-block;
+                height: 1px;
+                width: 1px;
+                bottom: 75px;
+                position: relative;
+            }
+            
+    #header .bottom-header {
+            bottom: 123px;    
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 90px;
+    }
+    
+    #header .top-header {
+        margin-top: 70px;
+    }
+    
+#header .bottom-header h1 p {
+    font-size: 24px;
+    width: 30em;
+    line-height: 2em;
+    text-align: left;
+    font-weight: 300;
+    display: block;
+    text-shadow: rgba(0,0,0,.5) 0px 1px 2px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+#header .bottom-header h1 {
+    text-align: left;
+    font-size:48px;
+    display: none;
+}
+#hours-img {
+    width: 186px;
+    top: -58px;
+    right: 416px;
+    position: absolute;
+}
+
+#header .top-header .header-logo {
+    display: none;
+}
+
+    #header .top-header .header-navigation {
+        float: right;
+        padding-right: 34px;
+        position: relative;
+        z-index: 10;
+    }
+    #header.header-front-page {
+        background-image: url("./layout/images/header_locks_img.jpg") !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -70px;
+        height: calc(100% - 60px);
+    }
+    
+    #header-cover-box {
+        height: calc(100% - 60px);
+        background-color: rgba(0,0,0,0.3);
+        position: absolute;
+        width: 100%;
+    }
+    
+    
+    
+	
+	#header .bottom-header .section-description, #header .bottom-header .header-button-one , #header .bottom-header .header-button-two{
+		display: none
+	}
+
+        
+        #services {
+            border-top: 1px solid;
+            border-bottom: 1px solid;
+        }
+        
+        #footer {
+            position: absolute;
+            background-color: #3487C2;
+        }				
+            #footer .bottom-copyright{
+
+            }
+            #footer .center:after {
+                bottom: 100%;
+                left: 50%;
+                border: solid transparent;
+                content: " ";
+                height: 0;
+                width: 0;
+                position: absolute;
+                pointer-events: none;
+            }
+            
+            #footer .center:after {
+                border-color: rgba(194, 225, 245, 0);
+                border-bottom-color: #3487c2;
+                border-width: 36px;
+                margin-left: -36px;
+            }
+            
+                #footer #call-us-text {
+                    text-align: center;
+                }
+
+                #footer #call-us-text h3 {
+                    margin-bottom: 29px;
+                }
+                
+                #footer #call-us-text a {
+                    font-size: 30px;
+                }
+                #footer #call-us-text a:hover {
+                    color: #f1d204;
+                }
+
+                #footer #call-us-text h3, #footer #call-us-text a {
+                    color: white;
+                }
+
+                #footer #call-us-text .small-call-us-text {
+                    font-weight: 100;
+                    font-size: 90%;
+                }
+                
+
+                #footer .bottom-copyright{
+                    float: left;
+                }
+                
+                .service-paragraph {
+                    border: 1px solid #d4d4d4;
+                    height: 10em;
+                    background-color: white;
+                    color: #38393d;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    padding-top: 7px;
+                }
+           #contact-us {
+               padding: 65px 0 50px 0;
+           }
+           
+           div.wpcf7-mail-sent-ok,
+           #contact-us .section-content .contact-us-box .box-right span,
+           #contact-us .section-content .contact-us-box .box-right span a {
+               color: #38393d;
+           }
+           
+                #contact-us form p {
+                    color: #38393d;
+                    margin: 0px !important;
+                }
+
+                    #contact-us form p span {
+                        font-weight: bold;
+                        font-size: 18px ;
+                    }
+                
+                
+                #contact-us .section-content .wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ng {
+                    color: #38393d;
+                }
+                
+                #contact-us label {
+                    line-height: 12px;
+                }
+/* Pricing table*/
+#prices {
+    color: #545454;
+}
+#prices h2 {
+    font-size: 1.666em;
+    line-height: 1.3em;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+#prices h2 {
+    display: block;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+#prices .pricing-table.one-third {
+    width: 33.3%;   
+}
+#prices .pricing-table {
+    margin-right: 0;
+    margin-left: -1px;
+}
+#prices .pricing-box {
+    margin: -1px;
+    text-align: center;
+}
+#prices .one-third {
+    display: inline;
+    float: left;
+  }
+#prices .pricing-box .title {
+    background-color: #d9d9d9;
+    border: 1px solid #c4c4c4;
+    padding: 5px 15px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.333em;
+}
+#prices header{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+#prices .pricing-box .price {
+    line-height: normal;
+    padding: 10px 15px;
+    margin: 0;
+    border-top: none;
+}
+#prices .pricing-box .price, .pricing-box .footer {
+    background-color: #f2f2f2;
+    border: 1px solid #d9d9d9;
+}
+#prices .pricing-box {
+    margin-bottom: 20px;
+    text-align: center;
+}
+#prices .pricing-box ul.features {
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-top: none;
+    border-bottom: none;
+    padding: 10px 15px;
+    margin: 0;
+}
+#prices .pricing-box ul.features li:first-child {
+    border: none;
+}
+#prices .pricing-box ul.features li {
+    border-top: 1px solid #e5e5e5;
+    padding: 10px 0;
+}
+/*End Pricing table*/
+
+
+
+
+.contact-us-social {
+    display: none;
+}
+
+.screen-reader-response {
+    display: none;
+}
+
+
+/**
+responsive styles
+**/
+@media (max-width: 1200px) {
+    #header-title-text {
+        width: 500px;
+        line-height: 13px;
+    }
+    
+    #header-title-text h3{
+        font-size: 22px;
+        line-height: 19px;
+    }
+    
+    #header-title-text h4{
+        font-size: 18px;
+        line-height: 13px;
+    }
+    
+    #header-title-text > p {
+        font-size: 15px;
+        margin-bottom: 31px;
+        padding-top: 15px;
+    }
+    
+    #header-title-text .cta-hedear-title {
+        margin-bottom: 36px;
+        padding-top: 18px;
+    }
+    
+}
+
+@media (max-width: 1050px) {
+    #header.header-front-page {
+         background-position: 0px 0px;
+     }
+     
+     #hours-img {
+       right: 340px;
+    } 
+}
+@media (min-width:886px) and (max-width: 1050px) {
+    #logo-container {
+        padding-right: 33px;
+        padding-left: 33px;
+    }
+    
+       
+}
+
+@media (max-width: 886px) {
+    #hours-img {
+        display: none;
+    }
+}
+@media (min-width:768px) and (max-width: 886px) {
+    #logo-container {
+        padding-right: 33px;
+        padding-left: 33px;
+    }
+    
+    #header-title-text {
+        width: 490px;
+        top: -35px;
+        margin-right: 100px;
+    }
+    
+    #header .top-header {
+        margin-top: 37px;
+    }
+    
+    #header-title-text .cta-hedear-title {
+        height: 60px;
+    }
+        
+}
+
+/*Mobile Sizes*/
+
+@media (max-width:768px) {
+    
+    #footer .center:after {
+        bottom: 99%;
+    }
+    .responsive-menu, .responsive-menu.active {
+        position: absolute;
+        z-index: 100;
+    }
+
+    #header-logo-contianer {
+        height: 175px;
+        border-top-width: 2px;
+    }
+    #header {
+        margin-top: 140px;
+    }
+    #logo-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    #logo-container .header-right {
+        margin: auto;
+        width: Calc(100% - 60px);
+        right: 30px;
+        position: relative;
+    }
+    
+    #footer {
+        padding: 20px 0 0;
+    }
+    .bottom-copyright {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 680px) {    
+    .location-scroll {
+        bottom: 100px;
+    }
+    #header-title-text {
+        padding-right: 15px;
+        width: 100%;
+        padding-left: 23px !important;
+        left: 0px;
+    }
+    
+    #header-title-text .cta-hedear-title {
+        height: 63px;
+        width: 314px;
+        padding-left: 62px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #header-title-text h3 {
+        margin-bottom: 15px;
+        
+    }
+        
+    #header-title-text h4,
+    #header-title-text h3,
+    #header-title-text > p{
+        text-align: center;
+    }
+    
+    #header .bottom-header {
+        top: 0px
+    }
+    
+}
+
+@media (max-width: 400px) {
+    .service-paragraph {
+        min-height: 210px;
+    }
+    
+    /*    #header-cover-box,
+    #header.header-front-page {
+        height: 680px;
+    }*/    
+}
+
+@media (min-width: 350px) and (max-width:450px ) {
+#header-title-text h3 {
+        font-size: 26px;
+        line-height: 24px;
+    }
+}
+@media (max-width: 350px) {
+    #header-title-text h3 {
+        font-size: 24px;
+        line-height: 22px;
+    }
+    
+    #header-title-text {
+        padding-left: 12px !important;
+    }
+    
+    #header-title-text h4 {
+        font-size: 16px;
+    }
+    #header-title-text .cta-hedear-title {
+        width: 278px;
+        padding-left: 45px;
+    }
+   
+}
+ 
+
+@media (max-width: 300px) {
+    .service-paragraph {
+        font-size: 14.5px;
+    }
+}
+
+/*adding call icon button*/
+
+#mobile-phone-button { 
+	display: none;
+}
+
+
+/*up to iphone plus size*/
+@media (max-width: 440px) {    
+    
+	#logo-container .header-right {
+		display: none;
+	}
+    #header-logo-contianer {
+		height: 84px;
+	}
+	
+	#header {
+	margin-top: 0px;
+	}
+	
+            #header .top-header {
+                margin-top: 53px;
+            }
+        
+	#mobile-phone-button .fa-phone {
+		font-size: 50px;
+	}
+	
+	#mobile-phone-button .fa-phone:before {
+		left: 10px;
+		position: relative;
+		top: 7px;
+		color: white;
+	}
+    #mobile-phone-button {
+        display: none;
+        position: fixed;
+        width: 65px;
+        height: 65px;
+        border-radius: 80px;
+        border: 2px solid #fff;
+        bottom: 24px;
+        left: 20px;
+        z-index: 9999;
+        background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…UtMTMuNjc0QzYuMTE3IDI0LjMgNy4xIDEzIDcuMSAxMyIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==) center/50px 50px no-repeat #1e73be;
+        }
+    
+    #logo-container div.header-left a span {
+        font-size: 1em;
+    }
+    
+    #cks-part {
+        left: 28px;
+    }
+}
+/*End call icon button*/
+
+/*Start read more addition*/
+    .service-paragraph {
+        border: none;
+    }
+
+    .read-more-div {
+        display: inline-block;
+        width: 100%;
+        float: left;
+        position: relative;
+        bottom: 15px;
+        left: 15px;
+    }
+        .read-more-div a {
+            float: left;
+            border: none;
+            background-image: none;
+            background-color: #2980B9;
+        }
+        
+        #services > div.section-header > div > div > div  > div {
+            display: inline-block;
+            background-color: white;
+            border: 1px solid #d4d4d4;
+            margin-bottom: 10px;
+        }
+        
+        
+        #about, #static-page-content {
+            padding: 10px 0 0px 0;
+        }
+        
+/*End read more addition*/
+
+/* Services Section additions*/
+
+.section-content .row {
+    margin-top: 25px;
+}
+
+#header.commercial-locksmith-services {
+    background-image: url(./layout/images/commercial_locksmith_header.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -70px;
+    height: calc(100% - 60px);
+}
+
+#header.automotive-locksmith-services {
+    background-image: url(./layout/images/automotive_locksmith_header.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -70px;
+    height: calc(100% - 60px);
+}
+
+#header.residential-locksmith-services {
+    background-image: url(./layout/images/residential_locksmith_header.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -70px;
+    height: calc(100% - 60px);
+}
+
+#header.newtown-automotive-locksmith {
+    background-image: url(./layout/images/newtown_new_car_keys.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -70px;
+    height: calc(100% - 60px);
+}
+
+.service-section-img-container img{
+        width: 100%;
+}
+
+.service-section-text-contianer {
+    color: #38393d;
+}
+
+div.section-content > div > div:nth-child(1) > .service-section-text-contianer > h4 {
+	max-width: 34rem;
+}
+
+.front-page-section .section-header {
+    margin-bottom: 25px;
+}
+
+    .front-page-section .section-header .header-section-text {
+        color: black;
+        margin-bottom: 0px;
+        font-size: 45px;
+    }
+    
+    #locksmith-images-carousel {
+        margin-top: 0px;
+    }
+    
+    .page-template-commercial-locksmith-page #header-cover-box {
+        height: 100%;
+    }
+    
+    .page-template-commercial-locksmith-page #header {
+        height: 100%;
+        background-position: 0px;
+    }
+    .breadcrumb {
+        background: none;
+    }
+        .breadcrumb-item+.breadcrumb-item::before {
+            display: inline-block;
+            padding-right: .5rem;
+            padding-left: .5rem;
+            color: #636c72;
+            content: "/";
+        }
+
+        .carousel-inner .item img{
+            height: 405px;
+        }
+        
+        #header-title-text-mobile {
+            display: none;
+        }
+        
+        @media (max-width: 440px) {
+            
+            #header.header-front-page, #header-cover-box {
+                height: 260px;
+            }
+                    .read-more-div {
+                        bottom: 20px;
+                        left: 0px;
+                    }
+
+                    .read-more-div a {
+                        float: initial;
+                        font-size: 16px;
+                        padding: 8px 25px;
+                    }
+
+
+                    #header.commercial-locksmith-services,
+                    #header-cover-box.commercial-locksmith-services,
+                    #header.automotive-locksmith-services,
+                    #header-cover-box.automotive-locksmith-services,
+                    #header.residential-locksmith-services,
+                    #header-cover-box.residential-locksmith-services{
+                        height: 33%;
+                        background-size: cover;
+                        background-position: 0px 0px;
+                    }
+                    #header-title-text {
+                        display: none;
+                    }
+                    #header-title-text-mobile {
+                        display: inline-block;
+                        float: left;
+                        background-color: rgba(0,0,0,0.85);;
+                        padding-top: 10px !important;                       
+                        position: relative;                       
+                        top: 4px;
+                        color: white;
+                        z-index: 1;
+                        max-width: 38em;
+                        line-height: 13px;
+                        padding-left: 12px;
+                        padding-right: 15px;
+                        width: 100%;
+                    }
+                    
+                    #about, #static-page-content {
+                        padding: 20px 0 0px 0;
+                    }
+                    
+                    #about .section-header {
+                        margin-bottom: 0px;
+                    }
+                    
+                    .section-header h3 {
+                        margin-bottom: 35px !important;
+                    }
+                    
+                    #header-title-text-mobile .cta-hedear-title {
+                        margin-right: 0px;
+                        background-color: #f1d204;
+                        height: 71px;
+                        width: 100%;
+                        padding-top: 23px;
+                        margin-bottom: 1.5em;
+                        margin-top: 1.5em;
+                        padding-left: 0px;
+                    }
+                    
+                        #header-title-text-mobile .cta-hedear-title p {
+                            text-align: center;
+                        }
+                    
+                    #header-title-text-mobile > div > div > p > a {
+                        font-size: 25px;
+                        color: black;
+                    }
+                    
+                    #header-title-text-mobile h4, #header-title-text-mobile h3, #header-title-text-mobile > p {
+                        text-align: left;
+                    }
+
+                    #header-title-text-mobile h3 {
+                        font-size: 1.2em;
+                        line-height: 1.25em;
+                        margin-bottom: 0.75em;
+                        margin-top: 0.35em;
+                    }
+                    
+                    #header-title-text-mobile h4 {
+                        font-size: 1em;
+                        line-height: 1em;
+                    }                                        
+                    
+                    #header-title-text-mobile > p {
+                        font-size: .9em;
+                    }
+                    
+                    #services {
+                        padding: 35px 0 0px 0;
+                    }
+                    
+                    #contact-us {
+                        padding: 8px 0 0px 0;
+                    }
+                    
+                    
+                    #contact-us .section-header .contact-us-section-title h3 {
+                        margin-bottom: 5px !important;
+                    }
+                    #contact-us .section-header {
+                        margin-bottom: 10px;
+                    }
+                    
+                    #contact-us .section-content .row {
+                        margin-top: 8px;
+                    }
+                    
+                    #contact-us .section-content .email-container .row {
+                        margin-bottom: -15px !important;
+                    }
+                    
+                    .contact-us-form-container form p {
+                        margin-top: 8px !important;
+                    }
+                    
+                    #contact-us .section-content .wpcf7-form p .wpcf7-submit {
+                            margin: 12px 0 0 0;
+                    }                                     
+                    
+                    .location-scroll {
+                        bottom: 0px;
+                    }
+                    #footer #call-us-text h3, #footer #call-us-text a {
+                        line-height: 1em;
+                        font-size: 25px;
+                        margin-bottom: 0.75em;
+                    }
+                    #footer .bottom-footer {
+                        margin-top: 32px;
+                    }
+                    
+                   .section-header .header-section-text.service-page {
+                        font-size: 40px;
+                        line-height: 1em;
+                        position: relative;
+                        top: 18px;
+                    }
+                    
+                }
+                
+/* 
+start map section
+*/    
+
+#footer .bottom-footer {
+    padding: 0px 0px 0px 0px;
+}
+
+#footer .bottom-footer .text-center{    
+    color: black;
+    padding-top: 0px;
+}
+
+#footer .bottom-footer .container {
+    margin-top: 5px;
+}
+
+#footer .bottom-footer .text-center h4 {
+    line-height: 0.75em;
+}
+
+
+#footer .bottom-copyright{
+                    float: right;
+                }
+                
+#mapAddress {
+    height: 320px;
+}
+.addressBoxMap {
+    left: 15px !important;
+    width: 250px;
+    background-color: white;  
+}
+footer.page-footer .footer-copyright {
+    font-size: 16px;
+} 
+
+.btn-fb {
+    background-color: #3B5998 !important;
+}
+
+.btn-tw {
+    background-color: #55ACEE !important;
+}
+
+.btn-gplus {
+    background-color: #DD4B39 !important;
+}
+
+.btn-li {
+    background-color: #0082CA !important;
+}
+
+.btn-dribbble {
+    background-color: #EC4A89 !important;
+}
+
+.btn-floating.btn-sm i, .btn-floating.btn-small i, .btn-floating.wishlist i {
+    font-size: 18px !important;
+    line-height: 38px !important;
+}
+    
+.social-section .btn-floating {
+        z-index: 1;
+    overflow: hidden;
+    width: 36.15px;
+    height: 36.15px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #a6c;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.btn-floating, .btn-floating.btn-flat.active, .btn:active, .btn:focus, .btn:hover, .card.card-cascade.card-avatar img, .card.card-cascade.wider.reverse .card-body, .colorful-select .dropdown-content li.active span, .comments-list .badge, .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover, .form-header, .md-pills .nav-link.active:hover, .media .media-left img, .modal-dialog .modal-content, .modal-dialog.cascading-modal .modal-header, .nav-tabs, .picker__box .picker__table .picker--focused, .picker__box .picker__table .picker__day--selected, .picker__box .picker__table .picker__day--selected:hover, .pricing-card .header, .reply-form .badge, .z-depth-1-half, ul.instagram-photos li img {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+}
+
+    footer.page-footer .social-section ul li {
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+
+    footer hr {
+            border-top: 1px solid rgba(0,0,0,.1) !important;
+    }
+
+    footer.page-footer .title {
+        margin-bottom: 3px !important;
+        margin-top: 3px !important;
+    }
+    
+    #bottom-footer-section {
+        padding-top: 0px;
+        background-color: #3e4551;
+        color: white;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
+        #bottom-footer-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+            #bottom-footer-section ul li {
+                margin-right: 4px;
+                margin-left: 4px;
+                display: inline-block;
+            }
+                #bottom-footer-section ul li a {
+                    color: white;
+                }
+     #bottom-footer-section .social-section {
+        padding: 6px 0px 18px;
+     }  
+    
+    #contact-us .section-content .wpcf7-form p .wpcf7-text {
+        box-sizing: border-box;
+    }
+
+    @media (min-width:440px){
+        .desktop-pull-right {
+            float: right;
+        }
+
+        .desktop-pull-left {
+            float: left
+        }
+        
+        .hidden-desktop {
+            display:none;
+        }
+		
+    }
+    @media (min-width:768px) {
+        #useful-link-div {
+            float: left;
+            margin-left: 16px;
+            width: auto;
+        }
+        
+        #useful-link-div > ul > li > ul {
+            padding-left: 25px;
+        }
+    }
+    
+    #header.locksmith-newtown-pa  {
+    background-image: url(./layout/images/header_locks_img.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -70px;
+    height: calc(100% - 60px);
+    background-attachment: fixed;
+}
+       
+/* 
+end map section
+*/     
+
+#about.not-front-page {
+    text-align: left;
+    color: black;
+}
+
+    #about .section-header {
+        margin-bottom: 20px;
+    }
+        #about .section-header h3 {
+            margin-bottom: 15px;
+        }
+        #about.not-front-page .section-header .section-description {
+            margin: initial;
+        }
+    
+            #about.not-front-page .section-header .section-description h6 {
+                margin-top: 25px;
+            }
+            
+            #services {
+                padding: 65px 0 15px 0;
+            }
+  
+            @media (min-width: 768px) and (max-width:1024px ) {
+            
+                #header{
+                    height: 576px !important;
+                    background-position: 0px 0px !important;
+                }
+                
+                #header-cover-box {
+                    height: 576px;
+                }
+            }
+            
+            @media (max-width:440px ) {
+                
+				
+                .hidden-mobile {
+                    display:none;
+                }
+        
+                
+                    .page-template-newtown-locksmith-page #header,
+                    .page-template-newtown-locksmith-page #header-cover-box{
+                        height: 33%;
+                        background-size: cover;
+                        background-position: 0px 0px;
+                    }
+                    
+                    #about.not-front-page {
+                        top: 25px;
+                        position: relative;
+                        text-align: center;
+                    }
+                    
+                    #about.not-front-page .section-header h3 {
+                    margin-bottom: 12px !important;
+                }
+            }
+            
+
+/* hide sections */
+
+#useful-link-div {
+	display: none !important;
+}
+
+.pace-overlay {
+	opacity: 0.1 !important;
+}

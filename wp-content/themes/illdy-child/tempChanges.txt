@@ -1,0 +1,22 @@
+Locksmith in Bucks County, PA<span class="span-dot">.</span>
+
+We offer local locksmith services to Bucks County, PA<span class="span-dot">.</span>
+It's only $15 for a service call. 100% satisfaction guaranteed<span class="span-dot">.</span>
+Call us now for immediate service, we'll beat any price!
+
+<div>
+    <div class="container" style="margin-bottom: 50px;">
+			<div class="row">
+				<div class="col-sm-4 col-xs-8">
+
+																		<a href="http://localhost/BucksLocks" title="BucksLocks" class="header-logo">BucksLocks</a>
+											
+				</div>
+				<div class="col-sm-8 col-xs-4">
+					<nav class="header-navigation">
+					<div class="clearfix"></div>
+					</nav>					
+				</div>
+			</div><!--/.row-->
+		</div>
+</div>
