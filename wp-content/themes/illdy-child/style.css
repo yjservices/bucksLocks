@@ -656,7 +656,8 @@ responsive styles
             }
         
 	#mobile-phone-button .fa-phone {
-		font-size: 50px;
+		font-size: 1.9em;
+        margin: 0.22em 0.7em;
 	}
 	
 	#mobile-phone-button .fa-phone:before {
@@ -665,16 +666,24 @@ responsive styles
 		top: 7px;
 		color: white;
 	}
+    .wrapper-mobile-phone-button {
+        position: fixed;
+        z-index: 9999;
+        bottom: 24px;
+        width: 100%;
+        font-size: 18px;
+    }
+    .wrapper-mobile-phone-button span {
+        color: white;
+        font-weight: bold;
+    }
     #mobile-phone-button {
         display: none;
-        position: fixed;
-        width: 65px;
-        height: 65px;
-        border-radius: 80px;
-        border: 2px solid #fff;
-        bottom: 24px;
-        left: 20px;
-        z-index: 9999;
+        margin: auto;
+        width: 240px;
+        height: 60px;
+        border-radius: 22px;
+        border: 2px solid #8c979e;
         background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…UtMTMuNjc0QzYuMTE3IDI0LjMgNy4xIDEzIDcuMSAxMyIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==) center/50px 50px no-repeat #1e73be;
         }
     

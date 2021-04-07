@@ -48,7 +48,7 @@ get_header();
                     <h3>Best Locksmith in Philadelphia.</h3>
                     <h4>Available 24 Hours 7 Days a Week.</h4>
                     <h4>Reliable and Dependable Service.</h4>
-                    <p>Call now! Immediate Response! </p>
+                    <p>Call now!  </p>
                     <div class="cta-hedear-title">                
                         <div class="header-contact">                            
                             <p><a href="tel: (267) 560-7065"><i class="fa fa-phone fa-flip-horizontal"></i> (267) 560-7065</a></p>
@@ -84,17 +84,18 @@ get_header();
     <h3 style="font-size: 2.15em">Best Locksmith in Philadelphia</h3>
     <h4>Available 24 Hours 7 Days a Week.</h4>
     <h4>Reliable and Dependable Service.</h4>
-    <p>Call now! Immediate Response! </p>
+    <p>Call now!  </p>
     <div class="cta-hedear-title">                
         <div class="header-contact">                            
             <p><a href="tel: (267) 560-7065" onclick="gtag('event', 'click', {'event_category' : 'header-contact','event_label' : 'header-contact -locksmith philadelphia);"><i class="fa fa-phone fa-flip-horizontal"></i> (267) 560-7065</a></p>
         </div>            
     </div>
 </div>
-<div id="mobile-phone-button">
-    <a href="tel: (267) 560-7065" onclick="gtag('event', 'click', {'event_category' : 'mobile-phone-button','event_label' : 'mobile-phone-button -locksmith philadelphia);"><i class="fa fa-phone"></i></a>
+<div class="wrapper-mobile-phone-button">
+    <div id="mobile-phone-button" onclick="gtag('event', 'click', {'event_category' : 'mobile-phone-button','event_label' : 'mobile-phone-button -locksmith philadelphia);">
+        <a href="tel: (267) 560-7065"><i class="fa fa-phone"/></i><span>Click to call<span></a>
+    </div>
 </div>
-  
         
 <?php
 if( get_option( 'show_on_front' ) == 'posts' ): ?>

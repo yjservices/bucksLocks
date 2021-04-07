@@ -74,7 +74,7 @@ if ( ( is_single() || is_page() || is_archive() ) && get_theme_mod( 'illdy_archi
         <div id="logo-container" class="container" >
             <div class="row">
                 <div class="header-left col-sm-4 col-xs-12 text-center">
-                    <a href="<?php echo esc_url( home_url() )  ?>" title="BucksLocks" class="header-logo"><img alt="BucksLocks lock logo" id="logo-lock-img" src="<?php echo get_stylesheet_directory_uri(); ?>/layout/images/buckslocks_logo.png" width="100%" height="auto"/></a>
+                    <a href="<?php echo esc_url( home_url() )  ?>" title="BucksLocks" class="header-logo"><img alt="BucksLocks logo" id="logo-lock-img" src="<?php echo get_stylesheet_directory_uri(); ?>/layout/images/buckslocks_logo.png" width="100%" height="auto"/></a>
                 </div>                    
                 <div class="header-right">                
                     <div class="header-contact">
@@ -134,7 +134,7 @@ else: echo $pagename; endif; ?>" style="<?php echo $style ?>" title="BucksLocks 
                     <h3>Locksmith in <span >Philadelphia, Bucks County </span> <span >PA</span> and its Surroundings.</h3>
                     <h4>Available 24 Hours 7 Days a Week.</h4>
                     <h4>Reliable and Dependable Service.</h4>
-                    <p>Call now! Immediate Response! </p>
+                    <p>Call now!  </p>
                     <div class="cta-hedear-title">                
                         <div class="header-contact">                            
                             <p><a href="tel: (267) 560-7065"><i class="fa fa-phone fa-flip-horizontal"></i> (267) 560-7065</a></p>
@@ -169,15 +169,17 @@ else: echo $pagename; endif; ?>" style="<?php echo $style ?>" title="BucksLocks 
     <h3>Locksmith in Philadelphia, Bucks County PA and its Surroundings.</h3>
     <h4>Available<span itemprop="openingHours" content="Mo-Su"> 24 Hours 7 Days a Week.</span></h4>
     <h4>Reliable and Dependable Service.</h4>
-    <p>Call now! Immediate Response! </p>
+    <p>Call now!  </p>
     <div class="cta-hedear-title">                
         <div class="header-contact">                            
             <p><a href="tel: (267) 560-7065"><i class="fa fa-phone fa-flip-horizontal"></i> (267) 560-7065</a></p>
-        </div>            
+        </div>
     </div>
 </div>
-<div id="mobile-phone-button">
-    <a href="tel: (267) 560-7065"><i class="fa fa-phone"></i></a>
+<div class="wrapper-mobile-phone-button">
+    <div id="mobile-phone-button">
+        <a href="tel: (267) 560-7065"><i class="fa fa-phone"/></i><span>Click to call<span></a>
+    </div>
 </div>
 <?php endif;
-                                        ?>
+?>
